@@ -1,0 +1,65 @@
+/* Cores do Tema */
+// $corPrincipal: #ee2924;
+$corPrincipal: #296EAC;
+$corPrincipalEscura: #05506B;
+$corPrincipalEscuraDark: #05506B;
+$corPrincipalSuave: #D1F0FB;
+$corPrincipalSuaveEscura: #4CB9DF;
+
+$corSecundaria: #C11E2E;
+
+$corSecundariaMedia: #A51321;
+$corSecundariaEscura: #770611;
+$corSecundariaSuave: #EC5D6B;
+
+$corBranco: #ffffff;
+$corText: #292929;
+$corGrayPrincipal: #ededed;
+$corGraySuave: #e5e4e4;
+
+/* Tamanho das Telas */
+$xsWidth: 576px;
+$smWidth: 576px;
+$mdWidth: 768px;
+$lgWidth: 992px;
+$xlWidth: 1200px;
+
+/*Tamanho dos Textos */
+$xsTextMenu: 20px;
+
+@import 'classes';
+
+@import 'pre-header';
+@import 'header';
+@import 'header-bar';
+@import 'header-search';
+@import 'menu';
+@import 'icons';
+@import 'fonts';
+
+@import 'index';
+@import 'index-banner';
+@import 'index-communication';
+@import 'index-certification';
+@import 'index-news';
+@import 'index-services';
+@import 'index-call';
+@import 'index-tips';
+@import 'index-detail';
+@import 'index-clients';
+@import 'index-info';
+
+@import 'page-biography';
+@import 'page-contact';
+@import 'page-clients';
+@import 'page-news';
+@import 'page-offers';
+@import 'page-projects';
+@import 'page-services';
+@import 'page-market';
+@import 'page-stores';
+@import 'page-promotions';
+@import 'page-specials';
+
+@import 'pre-footer';
+@import 'footer';
