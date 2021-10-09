@@ -1,0 +1,24 @@
+.home-detail {
+    padding: 50px;
+    z-index: 1;
+    .detail-text {
+        text-align: right;
+        h3 {
+            font-size: 2.2em;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.5em;
+            line-height: 1.8;
+        }
+    }
+}
+.forma-merge {
+    position: relative;
+    z-index: -1;
+    img {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+    }
+}

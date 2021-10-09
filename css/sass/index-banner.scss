@@ -7,7 +7,6 @@
 	    z-index: 50;
 	    transition: all 0.3s ease;
 		ul {
-	    	// border: solid 1px #d6d6d6;
 			list-style-type: none;
 			padding-inline-start: 0px;
 			padding: 0px;
@@ -79,13 +78,15 @@
 				color: $corBranco;
 				.box-feature {
 					h3 {
-						font-weight: 600;
+						color: $corBranco;
+						font-weight: 500;
 						font-size: 4rem;
 						margin: 10px 0px;
 					}
 					.text-padded {
 						margin-left: 10px;
 						h4 {
+							font-family: 'Open Sans';
 							background-color: $corBranco;
 							color: $corPrincipal;
 							display:inline;

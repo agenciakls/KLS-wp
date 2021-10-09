@@ -3,7 +3,12 @@ footer {
 	background-color: $corSecundariaMedia;
 	color: $corBranco;
 	.footer-data { text-align: left; }
-	.footer-about { text-align: left; }
+	.footer-about {
+		text-align: left;
+		.text-about {
+			color: $corBranco;
+		}
+	}
 	.element-footer {
 		padding: 10px 0px;
 		h3 {

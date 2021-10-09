@@ -1,0 +1,25 @@
+.home-clients {
+    position: relative;
+    background-color: $corGrayPrincipal;
+    padding: 100px 0px;
+    h3 {
+        font-size: 2.2em;
+        margin-bottom: 15px;
+    }
+    .list-clients {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+        .single-clients {
+            background-color: $corBranco;
+            padding: 15px;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            min-height: 150px;
+        }
+    }
+}

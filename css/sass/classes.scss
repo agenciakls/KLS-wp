@@ -3,6 +3,7 @@
 body, html { margin: 0px; padding: 0px; font-family: 'Open Sans'; overflow-x: hidden; }
 body { background-color: $corBranco; color: $corPrincipal;  /* margin-top: 100px; */ }
 a, a:hover, a:active, a:focus, a:visited { cursor: pointer; text-decoration: none; color: $corSecundaria; }
+p { color: $corText; }
 
 /* TÍTULOS E TEXTOS */
 main { 
@@ -17,8 +18,8 @@ main {
 	}
 }
 h1, h2, h3, h4, h5, h6 { 
-	font-family: 'Open Sans';
-    font-weight: 700;
+	font-family: 'Exo 2';
+    font-weight: 500;
 	margin: 0px;
 	&.title {
 		text-transform: uppercase;
@@ -28,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {  }
 h2 { font-size: 35px; padding: 25px 0px; color: $corPrincipal; }
+h3 { color: $corSecundaria; }
 .content-text { color: $corText; }
 
 /* ELEMENTOS */
@@ -56,8 +58,8 @@ textarea { border-radius: 20px !important; }
 input:focus, textarea:focus, button:focus { outline: none !important; }
 input[type=button], input[type=submit], input[type=reset], button, .btn-default {
     display: inline-block;
-    background-color: $corPrincipal;
-    border: solid 5px $corPrincipal;
+    background-color: $corSecundaria;
+    border: solid 5px $corSecundaria;
     margin: 5px;
     padding: 10px 50px;
     color: $corBranco;
@@ -69,7 +71,7 @@ input[type=button], input[type=submit], input[type=reset], button, .btn-default 
     border-radius: 30px;
     font-weight: 600;
     &:hover {
-        background-color: $corPrincipalEscura;
+        background-color: $corSecundariaEscura;
     }
     &.btn-inverted {
         background-color: $corBranco;

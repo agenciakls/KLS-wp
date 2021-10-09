@@ -2,12 +2,12 @@
 	<div class="container">	
 		<h1>BLOG</h1>
 		<hr>
-		<p class="description-tips text-center">Para <strong>vender</strong> um serviço é preciso ter <strong>autoridade no assunto</strong>!</p>
+		<p class="description-tips text-center">Nossos <strong>artigos</strong> mais recente</p>
 		<div class="row list-tips list-posts"> 	
 			
 			<?php 
 			$argsTips = array(
-				'post_type' => 'dicas',
+				'post_type' => 'blog',
 				'posts_per_page' => 3
 			);
 			$listTips = new WP_Query($argsTips);
@@ -33,7 +33,7 @@
 			}
 			?>
 			<div class="col-md-12 text-center">
-				<a href="<?php echo get_post_type_archive_link('dicas'); ?>">
+				<a href="<?php echo get_post_type_archive_link('blog'); ?>">
 					<button type="button" class="button-default">
 					VER TODOS OS ARTIGOS
 					</button>

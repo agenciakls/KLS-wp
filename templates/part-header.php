@@ -52,14 +52,14 @@
 			</div>
 			<div id="pre-list-container" class="header-buttons">
 				<div class="header-list-buttons">
-					<a href="tel:+552133252407" target="_blank">
+					<!-- <a href="tel:+552133252407" target="_blank">
 						<button class="button-call" type="button">
-							<i class="fas fa-phone"></i> (21) 3325-2407
+							<i class="fas fa-phone"></i> (21) 98911-3353
 						</button>
-					</a>
+					</a> -->
 					<a href="tel:+552131180419" target="_blank">
 						<button class="button-call" type="button">
-							<i class="fas fa-phone"></i> (21) 3118-0419
+							<i class="fab fa-whatsapp"></i> (21) 98911-3353
 						</button>
 					</a>
 				</div>
