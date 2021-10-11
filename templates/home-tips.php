@@ -32,7 +32,7 @@
 				}
 			}
 			?>
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 text-center my-3">
 				<a href="<?php echo get_post_type_archive_link('blog'); ?>">
 					<button type="button" class="button-default">
 					VER TODOS OS ARTIGOS

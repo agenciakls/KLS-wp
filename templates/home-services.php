@@ -21,10 +21,10 @@
 								Criamos um planejamento para a sua empresa, visando o reconhecimento de sua marca e o retorno do seu negócio no meio digital.
 							</p>
 							<ul>
-								<li>- FACEBOOK, INSTAGRAM, YOUTUBE</li>
-								<li>- MARKETING DIGITAL</li>
-								<li>- SEGUIDORES E ENGAJAMENTO</li>
-								<li>- ESTRATÉGIA DE CONTEÚDO</li>
+								<li>FACEBOOK, INSTAGRAM, YOUTUBE</li>
+								<li>MARKETING DIGITAL</li>
+								<li>SEGUIDORES E ENGAJAMENTO</li>
+								<li>ESTRATÉGIA DE CONTEÚDO</li>
 							</ul>
 						</div>
 					</li>
@@ -41,11 +41,11 @@
 								Um modo interativo de sua marca chegar aos seus clientes. Temos uma equipe de profissionais capacitados e equipamentos de alta qualidade, para o melhor resultado dos projetos.
 							</p>
 							<ul>
-								<li>- CRIAÇÃO DE SITES</li>
-								<li>- DESENVOLVIMENTO DE APPS</li>
-								<li>- CRIAÇÃO DE LAYOUT</li>
-								<li>- SITES RESPONSIVOS</li>
-								<li>- SISTEMAS WEB</li>
+								<li>CRIAÇÃO DE SITES</li>
+								<li>DESENVOLVIMENTO DE APPS</li>
+								<li>CRIAÇÃO DE LAYOUT</li>
+								<li>SITES RESPONSIVOS</li>
+								<li>SISTEMAS WEB</li>
 							</ul>
 						</div>
 					</li>
@@ -62,10 +62,10 @@
 								Criamos campanhas e peças publicitárias que promovam seu negócio, com o foco no crescimento de bons resultados e uma boa imagem junto ao seu público.
 							</p>
 							<ul>
-								<li>- GOOGLE ADS</li>                            
-								<li>- FACEBOOK E INSTAGRAM (ADS)</li>
-								<li>- RELATÓRIOS DE RESULTADOS</li>
-								<li>- AUMENTO DE VENDAS E RESULTADOS</li>
+								<li>GOOGLE ADS</li>                            
+								<li>FACEBOOK E INSTAGRAM (ADS)</li>
+								<li>RELATÓRIOS DE RESULTADOS</li>
+								<li>AUMENTO DE VENDAS E RESULTADOS</li>
 							</ul>
 						</div>
 					</li>
@@ -82,10 +82,10 @@
 								Produção de conteúdo para agregar mais valor a sua marca e gerar mais resultados orgânicos.
 							</p>
 							<ul>
-								<li>- ARTIGOS</li>
-								<li>- KEYWORDS</li>
-								<li>- TRÁFEGO ORGÂNICO</li>
-								<li>- GOOGLE</li>
+								<li>ARTIGOS</li>
+								<li>KEYWORDS</li>
+								<li>TRÁFEGO ORGÂNICO</li>
+								<li>GOOGLE</li>
 							</ul>
 						</div>
 					</li>
@@ -102,10 +102,10 @@
 								Produção e edição de fotografias profissionais e vídeos de alta qualidade para dar mais profissionalismo ao seu negócio.
 							</p>
 							<ul>
-								<li>- FOTOGRAFIA</li>
-								<li>- FILMAGEM</li>
-								<li>- EDIÇÃO DE VÍDEOS</li>
-								<li>- ANIMAÇÃO 2D</li>
+								<li>FOTOGRAFIA</li>
+								<li>FILMAGEM</li>
+								<li>EDIÇÃO DE VÍDEOS</li>
+								<li>ANIMAÇÃO 2D</li>
 							</ul>
 						</div>
 					</li>
@@ -122,10 +122,10 @@
 								Quer renovar a imagem do seu negócio e dar elegância ao visual das suas redes sociais? Nós te ajudamos a ter uma identidade visual mais atrativa.
 							</p>
 							<ul>
-								<li>- CRIAÇÃO OU REDESIGN DE LOGO</li>                            
-								<li>- ARTES PARA WEB</li>
-								<li>- IMPRESSOS</li>
-								<li>- IDENTIDADE VISUAL</li>
+								<li>CRIAÇÃO OU REDESIGN DE LOGO</li>                            
+								<li>ARTES PARA WEB</li>
+								<li>IMPRESSOS</li>
+								<li>IDENTIDADE VISUAL</li>
 							</ul>
 						</div>
 					</li>

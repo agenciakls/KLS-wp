@@ -13,7 +13,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/splide.min.css?v=1.1.22">
-	
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123566709-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-123566709-1');
+	</script>
+
 	<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/img/logo.ico"> 
 	<?php 
 	if (is_single() || is_page()) {
