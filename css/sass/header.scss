@@ -103,6 +103,9 @@ section.content-title {
 	background-color: $corGrayPrincipal;
     padding: 15px 0px;
     margin: 0px 0px;
+	body.dark & {
+		background-color: $corGrayDark;
+	}
     h1 {
     	font-size: 40px;
     	color: $corPrincipal;
@@ -112,6 +115,13 @@ section.content-title {
 }
 @media screen and (max-width: $xsWidth) {
 	header {
+		&:not(.header-background) {
+			.header-area {
+				background-color: transparent;
+				background-image: none !important;
+			height: 100px;
+			}
+		}
 		.header-area {
 			.header-background {
 				opacity: 1;
@@ -166,6 +176,12 @@ section.content-title {
 }
 @media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
 	header { 
+		&:not(.header-background) {
+			.header-area {
+				background-color: transparent;
+				background-image: none !important;
+			}
+		}
 		.header-area {
 			height: 100px;
 			.header-background {
@@ -202,7 +218,7 @@ section.content-title {
 }
 @media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
 	header { 
-		height: 100px;
+		height: 120px;
 		.header-area {
 			.nav-button {
 				.hamburger {
@@ -217,7 +233,7 @@ section.content-title {
 			nav {
 				ul.header-menu {
 					li {
-						padding: 30px 10px;
+						padding: 20px 10px;
 						font-size: 16px;
 					}
 				}
@@ -236,7 +252,7 @@ section.content-title {
 			nav {
 				ul.header-menu {
 					li {
-						padding: 30px 15px;
+						padding: 20px 15px;
 						font-size: 19px;
 					}
 				}

@@ -6,29 +6,29 @@ get_header();
 ?>
 <main class="page-biography section">
 	<div class="container">
-		<div class="box-biography">
+		<div class="box-biography my-4">
 			<section class="row">
 				<div class="col-md-6">
 					<div class="about-figure">
-						<div class="image-figure img-circle" style="background-image: url('<?php echo get_bloginfo('template_url'); ?>/img/banner-equipe.jpg');" alt="">
+						<div class="image-figure img-circle" style="background-image: url('<?php echo get_bloginfo('template_url'); ?>/img/img-sobre.jpg');" alt="">
 						</div>
-						<img src="<?php echo get_bloginfo('template_url'); ?>/img/banner-equipe.jpg" class="img-fluid rounded-circle" alt="">
+						<img src="<?php echo get_bloginfo('template_url'); ?>/img/img-sobre.jpg" class="img-fluid rounded-circle" alt="">
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 d-flex align-items-center">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="title-section">
 								<h3>
-									AGÊNCIA YXE
+									AGÊNCIA KLS
 								</h3>
-								<p>Nossa História</p>
+								<p><strong>Uma agência completa!</strong></p>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="content-section">
-								<p>A Agência YXE é uma agência focada no crescimento do seu negócio. Estamos em constante atualização e aprendizado. Somos uma empresa totalmente adaptada ao novo mundo digital. Venha fazer parte desse mundo e descobrir resultados incríveis para o seu negócio.</p>
-								<p>A Agência YXE é uma agência focada no crescimento do seu negócio. Estamos em constante atualização e aprendizado. Somos uma empresa totalmente adaptada ao novo mundo digital. Venha fazer parte desse mundo e descobrir resultados incríveis para o seu negócio.</p>
+								<p>A KLS é uma empresa criada em 2018 e focada em publicidade e marketing, mas com o grande diferencial de gerar resultados para os seus clientes e projetar soluções ágeis para o mercado. </p>
+								<p>Nós focamos em produção de contéudo com marketing inteligente, além disso trabalhamos com as melhores tecnologias do mercado e as metodologias avançadas.</p>
 							</div>
 						</div>
 					</div>
@@ -36,6 +36,7 @@ get_header();
 			</section>
 		</div>
 	</div>
+	<?php /*
 	<div class="content-icons-about my-5">
 		<div class="container-fluid">
 			<div class="row">
@@ -51,5 +52,7 @@ get_header();
 			</div>
 		</div>
 	</div>
+	*/
+	?>
 </main>
 <?php get_footer(); ?>

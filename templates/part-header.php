@@ -1,7 +1,7 @@
 <header <?php if (!is_front_page()) { echo ' class="header-background"'; } ?>>
 	<div class="header-area" style="background-image: url('<?php echo get_bloginfo('template_url'); ?>/img/background-banner-desktop.png');">
 		<div class="container">
-			<div class="header-background<?php if (!is_front_page()) { echo ' front-header'; } ?>"></div>
+			<!-- <div class="header-background<?php if (is_front_page()) { echo ' front-header'; } ?>"></div> -->
 			<div class="header-main">
 				<div class="logo">
 					<a href="<?php bloginfo('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt=""></a>
@@ -15,12 +15,6 @@
 						<div class="single-socials">
 							<a href="<?php echo InfoVar::show('instagram'); ?>" target="_blank">
 								<i class="fab fa-instagram">
-								</i>
-							</a>
-						</div>
-						<div class="single-socials">
-							<a href="<?php echo InfoVar::show('youtube'); ?>" target="_blank">
-								<i class="fab fa-youtube">
 								</i>
 							</a>
 						</div>
@@ -52,12 +46,7 @@
 			</div>
 			<div id="pre-list-container" class="header-buttons">
 				<div class="header-list-buttons">
-					<!-- <a href="tel:+552133252407" target="_blank">
-						<button class="button-call" type="button">
-							<i class="fas fa-phone"></i> (21) 98911-3353
-						</button>
-					</a> -->
-					<a href="tel:+552131180419" target="_blank">
+					<a href="<?php echo InfoVar::show('whatsapp'); ?>" target="_blank">
 						<button class="button-call" type="button">
 							<i class="fab fa-whatsapp"></i> (21) 98911-3353
 						</button>
@@ -95,17 +84,12 @@
 				</a>
 			</li>
 			<li id="nav-menu-item-6">
-				<a href="<?php echo InfoVar::show('youtube'); ?>" target="blank" class="menu-link main-menu-link">
-					<i class="fab fa-youtube"></i>
-				</a>
-			</li>
-			<li id="nav-menu-item-6">
 				<a href="mailto:<?php echo InfoVar::show('email'); ?>" target="blank" class="menu-link main-menu-link">
 					<i class="far fa-envelope"></i>
 				</a>
 			</li>
 			<li id="nav-menu-item-6">
-				<a href="<?php echo InfoVar::show('phone'); ?>" target="blank" class="menu-link main-menu-link">
+				<a href="<?php echo InfoVar::show('whatsapp'); ?>" target="blank" class="menu-link main-menu-link">
 					<i class="fas fa-phone"></i>
 				</a>
 			</li>

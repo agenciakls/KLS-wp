@@ -12,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/splide.min.css?v=1.1.22">
 	
 	<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/img/logo.ico"> 
 	<?php 
@@ -44,6 +45,6 @@
 	<?php wp_head(); ?>
 	<?php flush(); ?>
 </head>
-<body>
+<body <?php if (isset($_COOKIE['dark'])) { $cookieDark = ($_COOKIE['dark'] == 'true') ? ' class="dark"': ''; echo $cookieDark; } else { echo ' class="dark"'; } ?>>
 	<?php get_template_part('templates/part', 'header'); ?>
 	<?php  if (!is_front_page()) { get_template_part('templates/header', 'title'); } ?>

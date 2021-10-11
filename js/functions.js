@@ -23,5 +23,40 @@ $(document).ready(function () {
 	boxBackTop.on('click', function () {
 		$("html, body").animate({scrollTop: 0}, 300);
 	});
+	if (document.getElementById("splide") !== null) {
+		var splide = new Splide( '.splide', {
+			perPage: 3,
+			perMove: 1,
+			rewind : true,
+			pagination: false,
+			breakpoints: {
+				992: {
+					perPage: 2,
+				},
+				768: {
+					perPage: 1.5,
+					focus: 'center',
+				},
+				576: {
+					perPage: 1.2,
+					focus: 'center',
+					arrows: false,
+				}
+			}
+		} );
+		splide.mount();
+	}
 
+	var boxLight = $("#box-light");
+	function setCookie(nome, valor, day) {
+		const d = new Date();
+		d.setTime(d.getTime() + (day*24*60*60*1000));
+		let expires = "expires="+ d.toUTCString();
+		document.cookie = nome + "=" + valor + ";" + expires + ";path=/";
+	}
+	boxLight.on('click', function () {
+		if ($('body').hasClass('dark')) { $('body').removeClass('dark'); setCookie('dark', false, 10); }
+		else { $('body').addClass('dark'); setCookie('dark', true, 10); }
+		
+	});
 });

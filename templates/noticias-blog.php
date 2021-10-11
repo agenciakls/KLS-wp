@@ -9,7 +9,7 @@
 					<a href="<?php the_permalink(); ?>">
 						<div class="content" style="min-height: 340px;">
 							<?php
-							if (has_post_thumbnail()) { ?><div class="img-default" style="background-image: url('<?php echo the_post_thumbnail_url('medium') ?>');"></div><?php } else { ?><div class="img-default"><h3><?php the_title(); ?></h3></div><?php }
+							if (has_post_thumbnail()) { ?><div class="img-default" style="background-image: url('<?php echo the_post_thumbnail_url('medium_large') ?>');"></div><?php } else { ?><div class="img-default"><h3><?php the_title(); ?></h3></div><?php }
 							?>
 							<div class="text">
 								<span class="view-more">Ver Mais </span>

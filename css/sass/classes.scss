@@ -1,9 +1,25 @@
 /* GLOBAL */
 * { margin: 0px; word-wrap: break-word; -webkit-font-smoothing: antialiased; }
 body, html { margin: 0px; padding: 0px; font-family: 'Open Sans'; overflow-x: hidden; }
-body { background-color: $corBranco; color: $corPrincipal;  /* margin-top: 100px; */ }
-a, a:hover, a:active, a:focus, a:visited { cursor: pointer; text-decoration: none; color: $corSecundaria; }
-p { color: $corText; }
+body { 
+    background-color: $corBranco;
+    color: $corText; 
+    &.dark {
+        background-color: $corDark;
+        color: $corTextDark;
+    }
+}
+a, a:hover, a:active, a:focus, a:visited { 
+    cursor: pointer;
+    text-decoration: none;
+    color: $corSecundaria;
+}
+p {
+    color: $corText;
+    body.dark & {
+        color: $corTextDark;
+    }
+}
 
 /* TÍTULOS E TEXTOS */
 main { 
@@ -46,11 +62,17 @@ img { max-width: 100%; }
     font-size: 16px;
     font-weight: 500;
     color: $corPrincipal;
-    background-color: #efefef;
-    // border: solid 1px $corPrincipal;
+    background-color: $corGrayPrincipal;
     border-radius: 30px;
+    body.dark & {
+        background-color: $corGrayDark;
+        color: $corTextDark;
+    }
     &::placeholder {
-        color: #585858 !important;
+        color: $corGrayDark !important;
+        body.dark & {
+            color: $corGraySuave !important;
+        }
     }
 }
 input[type=text], input[type=email], input[type=tel], select, textarea { -webkit-appearance: none; }
@@ -70,36 +92,84 @@ input[type=button], input[type=submit], input[type=reset], button, .btn-default 
     transition: ease 0.3s all;
     border-radius: 30px;
     font-weight: 600;
-    &:hover {
-        background-color: $corSecundariaEscura;
-    }
+    body.dark & { color: $corTextDark; }
+    &:hover { background-color: $corSecundariaEscura; }
     &.btn-inverted {
         background-color: $corBranco;
         border-color: $corBranco;
         color: $corSecundaria;
-        &:hover {
-            background-color: $corGrayPrincipal;
+        body.dark & {
+            background-color: $corDark;
+            border-color: $corDark;
+            color: $corSecundaria;
         }
-        &.border {
-            border: solid 5px $corSecundariaSuave !important;
-        }
+        &:hover {background-color: $corGrayPrincipal;}
+        &.border {border: solid 5px $corSecundariaSuave !important;}
     }
     &.btn-border {
         background-color: transparent;
         color: $corBranco;
-        border: solid 5px $corBranco;
+        border: solid 3px $corBranco;
+        body.dark & {
+            color: $corDark;
+            border: solid 3px $corDark;
+        }
     }
-    &.btn-red {
-        background-color: $corSecundaria;
+    body.dark &.white-dark {
+        background-color: $corBranco;
+        border-color: $corBranco;
+        color: $corSecundaria;
+        &.btn-inverted {
+            background-color: $corBranco;
+            border-color: $corBranco;
+            color: $corSecundaria;
+        }
+        &.btn-border {
+            background-color: transparent;
+            color: $corBranco;
+            border: solid 3px $corBranco;
+        }
     }
+    &.btn-red { background-color: $corSecundaria; }
+    &.btn-blue { background-color: $corPrincipal; }
     &.btn-sm {
         border-width: 2px;
         font-size: 16px;
         padding: 7px 25px;
     }
-    &.d-block {
-        width: 100%;
+    &.d-block { width: 100%; }
+}
+
+/* CONTACT FORM */
+span.wpcf7-not-valid-tip {
+    display: block !important;
+    background-color: $corSecundaria !important;
+    color: #fff !important;
+    font-size: 1em !important;
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+    padding: 6px 12px !important;
+    margin: 0px !important;
+    body.dark & {
+        background-color: transparent !important;
     }
+}
+div.wpcf7-response-output {
+    background-color: #efefef !important;
+    color: $corSecundaria !important;
+    border: dashed 2px $corSecundaria !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    margin: 0px !important;
+    padding: 6px 3px !important;
+    body.dark & {
+        background-color: transparent !important;
+    }
+}
+.form-check-input {
+    position: relative !important;
 }
 
 /* PAGINATION */
@@ -129,24 +199,41 @@ input[type=button], input[type=submit], input[type=reset], button, .btn-default 
     }
 }
 
-.section-ads {
-    padding: 30px 0px;
-    background-color: #d4d4d4;
-    .adsbanner {
-        height: 120px;
+
+.splide__arrows {
+    .splide__arrow--prev {
+        left: -2em;
+    }
+    .splide__arrow--next {
+        right: -2em;
     }
 }
-
 
 @media screen and (max-width: $xsWidth) {
     h1 { font-size: 30px; }
     input[type=button], input[type=submit], input[type=reset], button, .btn-default {
         padding: 5px 20px;
     }
+    .splide__arrows {
+        .splide__arrow--prev {
+            left: 1em;
+        }
+        .splide__arrow--next {
+            right: 1em;
+        }
+    }
 }
 @media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
     input[type=button], input[type=submit], input[type=reset], button, .btn-default {
         padding: 5px 20px;
+    }
+    .splide__arrows {
+        .splide__arrow--prev {
+            left: 1em;
+        }
+        .splide__arrow--next {
+            right: 1em;
+        }
     }
 }
 @media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {

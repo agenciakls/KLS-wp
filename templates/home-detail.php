@@ -7,11 +7,13 @@
             <div class="col-md-6 d-flex flex-column justify-content-center detail-text">
                 <h3>Especialistas em gerar mais resultados para os nossos clientes</h3>
                 <p>Quer divulgar a sua empresa no digital e ter mais vendas e resultados? Chame a Agência KLS, temos o melhor suporte para sua empresa decolar!</p>
-                <a href=""><button class="button">Saiba Mais</button></a>
+                <a href="<?php echo get_page_link(InfoVar::show('sobre')); ?>"><button class="button">Saiba Mais</button></a>
             </div>
         </div>
 	</div>
 </section>
 <div class="forma-merge">
-    <img src="<?php echo get_bloginfo('template_url'); ?>/img/forma-clients.svg" class="img-fluid" alt="">
+    <div class="background-merge">
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/forma-clients.svg" class="img-fluid" alt="">
+    </div>
 </div>

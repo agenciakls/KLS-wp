@@ -77,6 +77,10 @@
 				align-items: center;
 				color: $corBranco;
 				.box-feature {
+					.img-mobile {
+						max-width: 250px;
+						margin: 0px auto;
+					}
 					h3 {
 						color: $corBranco;
 						font-weight: 500;
@@ -94,16 +98,25 @@
 							font-size: 1.5rem;
 							padding: 5px;
 							padding-left: 0px;
-							box-shadow: -10px 0 0 $corBranco; /* box shadow is emulating padding liek a charme */
+							box-shadow: -10px 0 0 $corBranco; 
 							margin: 15px 0px 15px; 
 							font-weight: 600;
 							transform: translate(20);
+							body.dark & {
+								background-color: $corDark;
+								box-shadow: -10px 0 0 $corDark; 
+							}
 						}
 					}
 					button {
 						display: block;
 						margin: 10px 0px;
 					}
+				}
+				.img-desktop {
+					max-width: 380px;
+					margin: 0px auto;
+					display: block;
 				}
 			}
 		}
@@ -162,7 +175,8 @@
 			display: none;
 		}
 		.home-banner {
-			min-height: 530px;
+			min-height: 650px;
+			background-image: url('../img/background-banner-mobile.png') !important;
 			& > img {
 				display: none;
 			}
@@ -215,13 +229,18 @@
 				.row-feature {
 					.box-feature {
 						h3 {
-							font-size: 21px;
+							text-align: center;
+							font-size: 1.4em;
 						}
 						.text-padded {
+							text-align: center;
 							h4 {
 								line-height : 37px;
 								font-size: 15px;
 							}
+						}
+						button {
+							margin: 10px auto;
 						}
 					}
 				}
@@ -235,18 +254,24 @@
 			display: none;
 		}
 		.home-banner {
-			min-height: 450px;
+			min-height: 650px;
+			
 			.area-feature {
 				.row-feature {
 					.box-feature {
 						h3 {
-							font-size: 21px;
+							text-align: center;
+							font-size: 1.4em;
 						}
 						.text-padded {
+							text-align: center;
 							h4 {
-								line-height: 37px;
+								line-height : 37px;
 								font-size: 15px;
 							}
+						}
+						button {
+							margin: 10px auto;
 						}
 					}
 				}
@@ -257,7 +282,7 @@
 @media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
 	.home-topo {	
 		.home-banner {
-			min-height: 460px;
+			min-height: 620px;
 			.area-feature {
 				.row-feature {
 					.box-feature {
@@ -294,15 +319,17 @@
 		.home-banner {
 			min-height: 590px;
 			.area-feature {
-				.box-feature {
-					h3 {
-						font-size: 19px;
-					}
-					.text-padded {
-						h4 {
-							line-height: 37px;
-							font-size: 16px;
-						} 
+				.row-feature {
+					.box-feature {
+						h3 {
+							font-size: 2.5em;
+						}
+						.text-padded {
+							h4 {
+								line-height: 2.2em;
+								font-size: 1.5em;
+							} 
+						}
 					}
 				}
 			}

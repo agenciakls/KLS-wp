@@ -32,8 +32,8 @@
                         <h3>Contato</h3>
                         <div class="text-footer">
                             <div class="row">
-                                <div class="col-md-6"><button class="btn-default btn-sm d-block btn-border">(21) 98911-3353</button></div>
-                                <div class="col-md-6"><button class="btn-default btn-sm d-block btn-inverted">Entre em contato</button></div>
+                                <div class="col-md-6"><a href="<?php echo InfoVar::show('whatsapp'); ?>" target="_blank"><button class="btn-default btn-sm d-block btn-border white-dark">(21) 98911-3353</button></a></div>
+                                <div class="col-md-6"><a href="<?php echo get_page_link(InfoVar::show('contato')); ?>"><button class="btn-default btn-sm d-block btn-inverted white-dark">Entre em contato</button></a></div>
                             </div>
                         </div>
                     </div>
@@ -42,23 +42,23 @@
                         <div class="footer-site">
                             <div class="list-socials">
                                 <div class="single-socials">
-                                    <a href="https://pt-br.facebook.com/AgenciaYxe/" rel="noreferrer" target="_blank">
+                                    <a href="<?php echo InfoVar::show('facebook'); ?>" rel="noreferrer" target="_blank">
                                         <i class="fab fa-facebook-square">
                                         </i>
                                     </a>
                                 </div>
                                 <div class="single-socials">
-                                    <a href="https://www.instagram.com/agenciayxe/" rel="noreferrer" target="_blank">
+                                    <a href="<?php echo InfoVar::show('instagram'); ?>" rel="noreferrer" target="_blank">
                                         <i class="fab fa-instagram">
                                         </i>
                                     </a>
                                 </div>
-                                <div class="single-socials">
-                                    <a href="https://www.youtube.com/user/YxePublicidade" rel="noreferrer" target="_blank">
+                                <!-- <div class="single-socials">
+                                    <a href="<?php echo InfoVar::show('youtube'); ?>" rel="noreferrer" target="_blank">
                                         <i class="fab fa-youtube">
                                         </i>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -71,12 +71,15 @@
             Agência KLS - Todos os direitos reservados
         </div>
     </div>
+    <div class="box-light" id="box-light">
+        <i class="far fa-lightbulb"></i>
+	</div>
 	<div class="box-back-top" id="box-back-top">
 		<i class="fas fa-arrow-up"></i>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	
+    <script src="<?php bloginfo('template_url'); ?>/js/splide.min.js?v=1.1.19"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/functions.js?v=1.1.19"></script>
 	<?php wp_footer(); ?>
 </div>

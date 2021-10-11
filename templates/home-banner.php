@@ -7,20 +7,19 @@
 				<div class="area-feature container">
 					<div class="row row-feature">
 						<div class="box-feature col-md-6">
-							<h3>Aumente seus resultados
-							</h3>
+							<img src="<?php echo get_bloginfo('template_url'); ?>/img/home-img.png" alt="Banner Fundo" class="img-fluid img-mobile d-block d-md-none" />
+							<h3>Aumente seus resultados</h3>
 							<div class="text-padded">
 								<h4>
-									<span>Já imaginou sua empresa vendendo mais e gerando lucros? Nós te ajudamos a chegar lá!
-									</span>
+									<span>Já imaginou sua empresa vendendo mais e gerando lucros? Nós te ajudamos a chegar lá!</span>
 								</h4>
 							</div>
-							<a href="<?php echo get_page_link(InfoVar::show('quem-somos')); ?>">
+							<a href="<?php echo get_page_link(InfoVar::show('sobre')); ?>">
 								<button class="btn-default btn-inverted">SAIBA MAIS</button>
 							</a>
 						</div>
-						<div class="col-md-6">
-							<img src="<?php echo get_bloginfo('template_url'); ?>/img/home-img.png" width="528" height="539" alt="Banner Fundo" class="img-fluid" />
+						<div class="col-md-6 d-none d-md-block">
+							<img src="<?php echo get_bloginfo('template_url'); ?>/img/home-img.png" width="528" height="539" alt="Banner Fundo" class="img-fluid img-desktop" />
 						</div>
 					</div>
 				</div>
@@ -38,15 +37,7 @@
 							</i>
 						</a>
 					</div>
-					<div class="single-socials">
-						<a href="<?php echo InfoVar::show('youtube'); ?>" rel="noreferrer" target="_blank">
-							<i class="fab fa-youtube">
-							</i>
-						</a>
-					</div>
 				</div>
-
-				
 				<?php
 			}
 			?>

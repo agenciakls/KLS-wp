@@ -2,9 +2,16 @@
     position: relative;
     background-color: $corGrayPrincipal;
     padding: 100px 0px;
+    body.dark & {
+        background-color: $corGrayDark;
+    }
     h3 {
         font-size: 2.2em;
         margin-bottom: 15px;
+        color: $corSecundaria;
+        body.dark & {
+            color: $corTextDark;
+        }
     }
     .list-clients {
 		display: flex;
@@ -20,6 +27,34 @@
             align-items: center;
             border-radius: 20px;
             min-height: 150px;
+            body.dark & {
+                background-color: $corDark;
+            }
         }
     }
+}
+@media screen and (max-width: $xsWidth) {
+    .home-clients {
+        h3 {
+            text-align: center;
+            font-size: 1.5em;
+        }
+    }
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+    .home-clients {
+        h3 {
+            text-align: center;
+            font-size: 1.5em;
+        }
+    }
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+    
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+    
+}
+@media screen and (min-width: $xlWidth) {
+	
 }

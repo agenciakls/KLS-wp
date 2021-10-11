@@ -7,6 +7,9 @@
 	    font-size: 35px;
 	    z-index: 2;
 	    color: $corText; 
+		body.dark & {
+			color: $corTextDark;
+		}
 	}
 	hr {
 		border-top: 2px solid rgb(30 154 200);
@@ -15,6 +18,9 @@
 	}
 	.description-tips {
 		color: $corText;
+		body.dark & {
+			color: $corTextDark;
+		}
 	}
     .list-tips {
 	    display: flex;

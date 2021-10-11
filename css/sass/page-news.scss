@@ -27,8 +27,11 @@
 			text-align: left;
 			font-family: 'Open Sans';
 			padding: 0px;
-			color: #9d9d9d;
+			color: $corText;
 			font-weight: 600;
+			body.dark & {
+				color: $corTextDark;
+			}
 		}
 		h3 {
 			font-size: 14px;
@@ -36,8 +39,11 @@
 		    margin-top: 0;
 		    margin-bottom: 4px;
 			text-transform: uppercase;
-			color: #b3b3b3;
+			color: $corText;
 			font-family: 'Open Sans';
+			body.dark & {
+				color: $corTextDark;
+			}
 		}
 		a {
 		    font-size: 16px;
@@ -80,10 +86,15 @@
 	    box-shadow: 0px 0px 6px #d4d4d4;
 	    border-radius: 25px;
 	    display:block;
-	    color: black;
+	    color: $corText;
 	    min-height: 360px;
 	    margin: 10px 0px;
 	    overflow: hidden;
+		body.dark & {
+			background-color: $corGrayDark;
+			box-shadow: 0px 0px 6px $corGraySuaveDark;
+			color: $corTextDark;
+		}
 	    .img-news, img {
 		    width: 100%
 		}
@@ -99,7 +110,7 @@
 	}
 	.featured {
 		.content {
-			color: white;
+			color: $corBranco;
 		    overflow: hidden;
 		    position: relative;
 			.text {
@@ -107,7 +118,7 @@
 			    background: none;
 			    bottom: 0;
 			    max-width: 100%;
-			    color: white;
+			    color: $corBranco;
 			}
 		}
 	}
@@ -120,7 +131,7 @@
 	.btn.more-posts{
 	    display: block;
 	    background-color: #f3b423;
-	    color: white;
+	    color: $corBranco;
 	    border-radius: 0;
 	}
 }
