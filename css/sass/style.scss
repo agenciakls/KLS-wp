@@ -46,9 +46,6 @@ $xsTextMenu: 20px;
 
 @import 'index';
 @import 'index-banner';
-@import 'index-communication';
-@import 'index-certification';
-@import 'index-news';
 @import 'index-services';
 @import 'index-call';
 @import 'index-tips';
@@ -58,15 +55,17 @@ $xsTextMenu: 20px;
 
 @import 'page-biography';
 @import 'page-contact';
-@import 'page-clients';
 @import 'page-news';
-@import 'page-offers';
-@import 'page-projects';
 @import 'page-services';
-@import 'page-market';
-@import 'page-stores';
-@import 'page-promotions';
-@import 'page-specials';
+
+@import 'landing-atendimento';
+@import 'landing-clients';
+@import 'landing-portfolio';
+@import 'landing-resume';
+@import 'landing-services';
+
+
+@import 'single';
 
 @import 'pre-footer';
 @import 'footer';

@@ -1,13 +1,13 @@
 .landing-resume {
 	padding: 15px 0px;
+	margin: 50px 0px;
 	.resume-text {
 		font-size: 26px;
 		font-weight: bold;
-		text-align: justify;
+		text-align: center;
 	}
 	.btn-resume {
 		margin: 15px 0px;
-		float: left;
 	}
 }
 @media screen and (max-width: $xsWidth) {

@@ -6,7 +6,7 @@ function script_work() {
 
     global $post;
 
-    $slugPage = $post->post_name;
+    $slugPage = (isset($post->post_name)) ? $post->post_name : '';
 
     if ($slugPage == 'trabalhe-conosco') {
 

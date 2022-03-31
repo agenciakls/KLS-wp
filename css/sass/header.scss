@@ -5,7 +5,11 @@ header {
 	z-index: 100;
 	.header-area {
 		background-color: $corPrincipal;
+		background-image: url('../img/background-banner-desktop.jpg');
 		width: 100%;
+		body.dark & {
+			background-image: url('../img/background-banner-desktop-dark.jpg');
+		}
 		&.fixed {
 			top: 0px;
 		}

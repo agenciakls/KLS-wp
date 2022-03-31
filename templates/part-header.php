@@ -1,5 +1,5 @@
 <header <?php if (!is_front_page()) { echo ' class="header-background"'; } ?>>
-	<div class="header-area" style="background-image: url('<?php echo get_bloginfo('template_url'); ?>/img/background-banner-desktop.png');">
+	<div class="header-area">
 		<div class="container">
 			<!-- <div class="header-background<?php if (is_front_page()) { echo ' front-header'; } ?>"></div> -->
 			<div class="header-main">

@@ -63,8 +63,12 @@
 		background-size: cover;
 		background-position: center bottom;
 		background-repeat: no-repeat;
+		background-image: url('../img/background-banner-desktop.jpg');
 		display: block;
 		position: relative;
+		body.dark & {
+			background-image: url('../img/background-banner-desktop-dark.jpg') !important;
+		}
 		.area-feature {
 			height: 100%;
 			display: flex;
@@ -176,7 +180,10 @@
 		}
 		.home-banner {
 			min-height: 650px;
-			background-image: url('../img/background-banner-mobile.png') !important;
+			background-image: url('../img/background-banner-mobile.jpg') !important;
+			body.dark & {
+				background-image: url('../img/background-banner-mobile-dark.jpg') !important;
+			}
 			& > img {
 				display: none;
 			}

@@ -1,0 +1,26 @@
+.page-single {
+    h1 {
+        color: $corText;
+        text-align: center;
+        body.dark & {
+            color: $corTextDark;
+        }
+    }
+   /*
+   .img-thumb {
+        margin: 25px 0px;
+        background-size: cover;
+        background-position: center;
+        min-height: 250px;
+    }
+    */
+    img {
+        max-width: 350px;
+        width: 100%;
+        margin: 25px auto;
+        display: block;
+    }
+    .content-text {
+
+    }
+}

@@ -7,12 +7,10 @@ get_header();
 <main class="page-biography section">
 	<div class="container">
 		<div class="box-biography my-4">
-			<section class="row">
+			<section class="row d-flex flex-row-reverse">
 				<div class="col-md-6">
 					<div class="about-figure">
-						<div class="image-figure img-circle" style="background-image: url('<?php echo get_bloginfo('template_url'); ?>/img/img-sobre.jpg');" alt="">
-						</div>
-						<img src="<?php echo get_bloginfo('template_url'); ?>/img/img-sobre.jpg" class="img-fluid rounded-circle" alt="">
+						<img src="<?php echo get_bloginfo('template_url'); ?>/img/img-sobre.jpg" class="img-fluid img-about rounded-circle" alt="">
 					</div>
 				</div>
 				<div class="col-md-6 d-flex align-items-center">

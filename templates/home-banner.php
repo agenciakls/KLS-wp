@@ -1,6 +1,6 @@
 <div class="home-section home-topo container-fluid <?php if (!is_front_page()) { echo 'page-header'; } ?>">
 	<div class="row">
-		<div class="home-banner col-md-12" style="background-image: url('<?php echo get_bloginfo('template_url'); ?>/img/background-banner-desktop.png');">
+		<div class="home-banner col-md-12">
 			<?php
 			if (is_front_page()) {
 				?>

@@ -9,10 +9,10 @@ get_header();
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-6">
-				<img src="<?php echo get_bloginfo('template_url'); ?>/img/landing/higienizacao/sofa_higienizado.png" alt="" class="img-single">
+				<img src="<?php echo get_bloginfo('template_url'); ?>/img/landing/site.png" alt="" class="img-single">
 				</div>
-				<div class="col-md-6">
-					<div class="resume-text">Higienização através de lavagem a seco e impermeabilização de estofados como sofás, poltronas, puffs, cadeiras, colchões, tapetes, carpetes e etc.</div>
+				<div class="col-md-6 text-center">
+					<div class="resume-text">Já pensou em criar seu próprio website responsivo, loja virtual, layout, app ou sistema? Entre em contato conosco...</div>
 					<a href="<?php echo InfoVar::show('whatsapp'); ?>" target="_blank"><button class="button-primary btn-resume" type="button">Eu Quero</button></a>
 				</div>
 			</div>
@@ -58,9 +58,9 @@ get_header();
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-lg-4 col-md-3">
-					<h3 class="atendimento-head">Atendimento a Domicílio</h3>
+					<h3 class="atendimento-head">Atendimento e Suporte 24h</h3>
 					<div class="atendimento-text">
-						Entre em contato conosco para fazer o seu orçamento e nós agendamos uma visita do técnico em sua casa
+						Entre em contato conosco para fazer o seu orçamento sem compromisso e nós enviaremos nossas melhores propostas.
 					</div>
 				</div>
 				<div class="col-lg-8 col-md-9">
