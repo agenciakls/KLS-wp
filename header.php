@@ -55,6 +55,6 @@
 	<?php wp_head(); ?>
 	<?php flush(); ?>
 </head>
-<body <?php if (isset($_COOKIE['dark'])) { $cookieDark = ($_COOKIE['dark'] == 'true') ? ' class="dark"': ''; echo $cookieDark; } else { echo ' class="dark"'; } ?>>
+<body>
 	<?php get_template_part('templates/part', 'header'); ?>
 	<?php  if (!is_front_page()) { get_template_part('templates/header', 'title'); } ?>
