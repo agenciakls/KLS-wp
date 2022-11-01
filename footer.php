@@ -71,9 +71,9 @@
             Agência KLS - Todos os direitos reservados
         </div>
     </div>
-    <div class="box-light" id="box-light">
+    <!-- <div class="box-light" id="box-light">
         <i class="far fa-lightbulb"></i>
-	</div>
+	</div> -->
 	<div class="box-back-top" id="box-back-top">
 		<i class="fas fa-arrow-up"></i>
 	</div>
